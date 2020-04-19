@@ -1,0 +1,15 @@
+#!/bin/bash
+
+images=('minion.jpg' 'landscape.jpg' 'universe.jpg')
+images_blur=('minion_blur.jpg' 'landscape_blur.jpg' 'universe_blur.jpg')
+
+for i in 0 1 2
+  do
+     for j in 3 7 9 15
+       do  
+	  for k in 1 2 4 8 16
+            do
+	       ./blur_effect ${images[$i]} ${images_blur[$i]} $j $k 
+	    done 
+       done
+  done
