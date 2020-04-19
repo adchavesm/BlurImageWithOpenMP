@@ -1,0 +1,12 @@
+Dentro de la carpeta se encuentra lo siguente:
+
+1)Archivo de código fuente del programa escrito en c.
+2)Ejecutable del programa.
+3)Imágenes para relizar pruebas: minion.jpg (HD), landscape.jpg (FHD) y universe.jpg (4K). 
+4)Carpeta "Gráficas" con los análisis gráficos de los tiempos de ejecución y SpeedUp para cada imágen bajo distintas condiciones de número de hilos y tamaño de kernel.
+5)Carpeta "logs" donde se registran los tiempo de ejecución para todas las combinaciones de imágen, tamaño de kernel y número de hilos.
+6)Carpeta "Imágenes borrosas" para observar el resultado de aplicar el algoritmo a las imágenes originales.
+7)Script run_all para ejecutar todos los casos uno a uno.
+8)Carpeta stb_library con código de terceros para el manejo de los binarios de las imágenes.
+
+Se puede ejecutar el script directamente desde bash con el comando ./run_all.
